@@ -7,7 +7,7 @@
                 <h2>Check all Blogs</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('blogs.create') }}"> Create new blogs</a>
+                <a style="margin-bottom:20px;" class="btn btn-success" href="{{ route('blogs.create') }}"> Create new blogs</a>
             </div>
         </div>
     </div>
