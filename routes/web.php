@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('blogs.index');
+// });
+Route::get('/','BlogController@index');
 
 Route::resource('blogs', 'BlogController');
